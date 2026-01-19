@@ -142,6 +142,10 @@ nav a:hover {
 }
 
 .hero p {
+  color: var(--gold);
+}
+
+.hero p {
   max-width: 600px;
 }
 
