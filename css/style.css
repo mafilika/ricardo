@@ -91,7 +91,7 @@ p {
 }
 
 .logo span {
-  color: var(--light);
+  color: var(--gold);
 }
 
 .logo p {
@@ -135,7 +135,7 @@ nav a:hover {
 }
 
 .hero h2 span {
-  color: var(--gold);
+  color: var(--light);
 }
 
 .hero p {
