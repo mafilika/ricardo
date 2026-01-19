@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background: #F4F4F4;
+  color: #1F1F1F;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background: #1F1F1F;
+  color: white;
+}
+
+.header nav a {
+  margin-left: 15px;
+  color: #C9A24D;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.logo h1 {
+  font-family: 'Playfair Display', serif;
+}
+
+.logo span {
+  color: #C9A24D;
+}
+
+.hero {
+  height: 80vh;
+  background: url('../images/hero.jpg') center/cover no-repeat;
+  position: relative;
+}
+
+.hero-overlay {
+  background: rgba(0,0,0,0.6);
+  height: 100%;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 40px;
+}
+
+.hero h2 span {
+  color: #C9A24D;
+}
+
+.btn {
+  background: #C9A24D;
+  color: black;
+  padding: 12px 20px;
+  margin-top: 20px;
+  display: inline-block;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.services-preview .grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px,1fr));
+  gap: 15px;
+  padding: 20px;
+}
+
+.grid div {
+  background: white;
+  padding: 15px;
+  text-align: center;
+  border-left: 4px solid #C9A24D;
+}
+
+/* WhatsApp Floating Button */
+.whatsapp-float {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 55px;
+  height: 55px;
+}
