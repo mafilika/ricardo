@@ -131,11 +131,11 @@ nav a:hover {
   max-width: var(--max-width);
   margin: auto;
   padding: 20px;
-  color: var(--white);
+  color: var(--light);
 }
 
 .hero h2 span {
-  color: var(--light);
+  color: var(--gold);
 }
 
 .hero p {
