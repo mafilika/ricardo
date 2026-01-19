@@ -133,6 +133,9 @@ nav a:hover {
   padding: 20px;
   color: var(--light);
 }
+.hero h2 {
+  color: var(--light);
+}
 
 .hero h2 span {
   color: var(--gold);
